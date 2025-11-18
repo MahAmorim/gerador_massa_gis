@@ -30,7 +30,7 @@ def gerar_body_json(num_vertices):
     }
 
 if __name__ == "__main__":
-    num_vertices = 1000
+    num_vertices = 1000 #configuração da variavel de vertices
     try:
         body_json = gerar_body_json(num_vertices)
         os.makedirs("massa_exemplo", exist_ok=True)
